@@ -24,7 +24,7 @@ setup(
 )
 ```
 
-**NOTA:** El nombre del paquete utiliza guión (`-`) en vez de guión bajo (`_`) porque PIP no permite guión bajo en el nombre del paquete. Si se utiliza guión bajo, PIP lo sustituye por guión.
+**NOTA:** Parece ser que el nombre del paquete utiliza guión (`-`) en vez de guión bajo (`_`) porque PIP no permite guión bajo en el nombre del paquete. Si se utiliza guión bajo, PIP lo sustituye por guión. Comprobado. Lo que me extraña es que no me pasara con [my-first-pip-package](https://github.com/egarciarey1981/my-first-pip-package).
 
 ## Instalar el paquete
 
@@ -42,7 +42,7 @@ pip list | grep math2-egarciarey1981
 
 ## Uso del paquete
 
-Para usar el paquete, hay que importarlo:
+Como cualquier biblioteca de terceros, para usarlo hay que importarlo:
 
 ```python
 from math2_egarciarey1981.math2 import Math2
